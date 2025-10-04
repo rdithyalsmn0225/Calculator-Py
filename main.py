@@ -26,7 +26,7 @@ def Tambah():
     a1 = int(input("Masukan angka pertama :"))
     a2 = int(input("Masukan angka kedua : "))
     hasil = a1 + a2
-    print("", a1, "+", "", a2, "= ", hasil)
+    print(a1, "+", a2, "= ", hasil)
     Ulang()
 
 def Kurang():
@@ -34,7 +34,7 @@ def Kurang():
     a1 = int(input("Masukan angka pertama :"))
     a2 = int(input("Masukan angka kedua : "))
     hasil = a1 + a2
-    print("", a1, "-", "", a2, "= ", hasil)
+    print(a1, "-", a2, "= ", hasil)
     Ulang()
 
 def Kali():
@@ -42,7 +42,7 @@ def Kali():
     a1 = int(input("Masukan angka pertama :"))
     a2 = int(input("Masukan angka kedua : "))
     hasil = a1 * a2
-    print("", a1, "*", "", a2, "= ", hasil)
+    print(a1, "*", a2, "= ", hasil)
     Ulang()
 
 def Bagi():
@@ -50,7 +50,7 @@ def Bagi():
     a1 = int(input("Masukan angka pertama :"))
     a2 = int(input("Masukan angka kedua : "))
     hasil = a1 / a2
-    print("", a1, "/", "", a2, "= ", hasil)
+    print(a1, "/", a2, "= ", hasil)
     Ulang()
 
 def Ulang():
